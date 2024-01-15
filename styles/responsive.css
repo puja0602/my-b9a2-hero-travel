@@ -1,0 +1,38 @@
+/*Responsive for Small Devices*/
+@media screen and (max-width:600px) {
+    .explore-main {
+        top: 30%;
+        right: 25%;
+    }
+    .explore-img {
+        height: 500px;
+    }
+    .explore-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .explore-content h1 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+    }
+    .explore-content p {
+        padding-bottom: 50px;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 15px;
+        width: 100%;
+        border: 2px solid red;
+        margin-left: 0;
+        height: 100px;
+    }
+    .explore-form{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .explore-form input,
+select{
+    width: 300px;
+    height: 42px;
+}
+}

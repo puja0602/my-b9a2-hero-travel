@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hero travel</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
+    <header>
+        <!--Navbar starts here-->
+        <nav class="nav-container">
+            <div class="nav-title">
+                <img src="Images/Group 40071 (2).png" alt="nav-title">
+                <h1>Hero <span>Travel</span></h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li><a class="selected" href="">Home</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Testimonial </a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Navbar ends here-->
+    </header>
+    <main>
+        <!--Explore section starts here-->
+        <section class="explore-container">
+            <div class="explore-img">
+                <img src="Images/Group 13 (1) (1).png" alt="Explore">
+            </div>
+            <div class="explore-main">
+                <div class="explore-content">
+                    <h1>Explore Your Travel</h1>
+                    <p class="exp">We've been taking small groups on adventure holidays for over 40 years. Our authentic
+                        adventure travel experiences explore the sights and culture of a country, with hand-picked
+                        accommodation that balances comfort and location.</p>
+                </div>
+                <div class="explore-form">
+                    <div class="input">
+                        <input type="text" placeholder="Where go">
+                    </div>
+                    <div class="select">
+                        <select name="time" id="tme" placeholder="When">
+                            <option value="whn" disabled selected hidden>When</option>
+                            <option value="9AM">9 AM</option>
+                            <option value="9AM">2 PM</option>
+                            <option value="9AM">5 PM</option>
+                            <option value="9AM">10 PM</option>
+                        </select>
+                    </div>
+                    <div class="select1">
+                        <select name="type" id="typ">
+                            <option value="select" disabled selected hidden>Select Type</option>
+                            <option value="bus">By Bus</option>
+                            <option value="train">By Train</option>
+                            <option value="plane">By Air</option>
+                        </select>
+                    </div>
+                    <div class="find">
+                        <button><span><i class="fa-solid fa-magnifying-glass"></i></span> Find Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Explore section ends here-->
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>

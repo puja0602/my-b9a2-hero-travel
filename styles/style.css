@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.nav-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 15px;
+    padding: 10px 0px;
+}
+
+.nav-title h1 {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-title span {
+    color: #FF5400;
+}
+
+.nav-title img {
+    width: 50px;
+    object-fit: cover;
+}
+
+.nav-list {
+    flex: 1;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list ul li {
+    list-style-type: none;
+}
+
+.nav-list ul a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+
+.nav-list .selected {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/*Explore styles*/
+.explore-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.explore-img {
+    position: relative;
+}
+
+.explore-img img {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    object-fit: cover;
+    width: 100%
+}
+
+.explore-main {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.explore-content,
+.explore-form {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.explore-content h1 {
+    padding-bottom: 30px;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.explore-content p {
+    padding-bottom: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 676px;
+    margin-left: 50px;
+}
+
+.explore-form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.explore-form input,
+select {
+    border-radius: 8px;
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+    background: #FFF;
+    font-size: 1rem;
+    width: 174px;
+    height: 52px;
+    padding-left: 10px;
+}
+
+.explore-form button {
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    background: #FF5400;
+    font-size: 1rem;
+    width: 174px;
+    height: 52px;
+}
+
+.explore-form .fa-magnifying-glass {
+    margin-right: 0;
+}
