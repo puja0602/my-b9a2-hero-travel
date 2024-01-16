@@ -64,61 +64,203 @@
         text-align: justify;
     }
 }
+
 /*Destination section*/
-@media screen and (max-width:600px){
-    .destination-grid img{
+@media screen and (max-width:600px) {
+    .destination-grid img {
         height: 176px;
         object-fit: cover;
     }
+
     .row-1 .img-container-1 {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       /*justify-content: center;*/
-    }
-    .row-1 .img-container-1 img{
-        width: 100%;
-    }
-    .row-1 .img-container-1 .img-1,.img-2{
-        width: 375px;
-    }
-    .img-container-2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .img-container-2 .img-3,.img-4,.img-5{
-        width: 375px;
-    }
-    .img-container-2 img{
-        width: 100%;
-    }
-    .img-container-3{
         display: flex;
         flex-direction: column;
         align-items: center;
         /*justify-content: center;*/
     }
-    .img-container-3 img{
+
+    .row-1 .img-container-1 img {
         width: 100%;
     }
-    .img-container-3 .img-6,.img-7{
+
+    .row-1 .img-container-1 .img-1,
+    .img-2 {
         width: 375px;
     }
+
+    .img-container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-container-2 .img-3,
+    .img-4,
+    .img-5 {
+        width: 375px;
+    }
+
+    .img-container-2 img {
+        width: 100%;
+    }
+
+    .img-container-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*justify-content: center;*/
+    }
+
+    .img-container-3 img {
+        width: 100%;
+    }
+
+    .img-container-3 .img-6,
+    .img-7 {
+        width: 375px;
+    }
+
     .img-container-2 .sri {
         left: 40%;
         top: 40%;
     }
+
     .img-container-2 .kashmir {
         left: 40%;
         top: 45%;
     }
+
     .img-container-3 .bangla {
         left: 36%;
         top: 43%;
     }
-    .destination-content .dest-title{
+
+    .destination-content .dest-title {
         width: auto;
+    }
+}
+
+/*Why Section*/
+@media screen and (max-width:600px) {
+    .why-content h2 {
+        font-size: 2.5rem;
+        margin-top: 30px;
+    }
+
+    .why-content p {
+        font-size: .85rem;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    .why-card-container {
+        flex-direction: column;
+    }
+
+    .card,
+    .card-special {
+        width: 450px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+}
+
+/*Deals Section*/
+@media screen and (max-width:600px) {
+    .section-description {
+        font-size: .85rem;
+        padding: 10px 0;
+    }
+
+    .card-background {
+        height: 700px;
+    }
+
+    .card-background img {
+        height: 100%;
+    }
+
+    .deals-card-container {
+        width: 450px;
+        left: 10%;
+        top: 40%;
+    }
+
+    .deals-card-container * {
+        padding: 5px;
+    }
+
+    .card-background-sw {
+        height: 700px;
+    }
+
+    .card-background-sw img {
+        height: 100%;
+    }
+
+    .deals-card-container-sw {
+        width: 450px;
+        left: 10%;
+        top: 40%;
+    }
+
+    .deals-img-container {
+        margin-left: 60px;
+    }
+
+    .deals-card-container-sw * {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .simple-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .simple-content h1 {
+        width: auto;
+    }
+
+    .simple-video p {
+        top: 35%;
+        left: 5%;
+        font-size: 1rem;
+    }
+}
+
+/*Newsletter Section*/
+@media screen and (max-width:600px) {
+    .newsletter-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter-img {
+        margin-left: 30px;
+    }
+
+    .box {
+        width: 264px;
+        height: 100px;
+        padding: 10px;
+        left: 52%;
+        top: 51%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .own-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 50px;
+    }
+
+    .own-content {
+        order: 2;
     }
 }
