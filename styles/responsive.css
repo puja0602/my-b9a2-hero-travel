@@ -1,38 +1,124 @@
 /*Responsive for Small Devices*/
+/*Explore section*/
 @media screen and (max-width:600px) {
     .explore-main {
         top: 30%;
         right: 25%;
     }
+
     .explore-img {
         height: 500px;
     }
+
     .explore-img img {
         height: 100%;
         object-fit: cover;
     }
+
     .explore-content h1 {
         padding-top: 20px;
         padding-bottom: 10px;
         font-size: 1.5rem;
     }
+
     .explore-content p {
         padding-bottom: 50px;
         font-size: 1rem;
         font-weight: 400;
         line-height: 15px;
         width: 100%;
-        border: 2px solid red;
         margin-left: 0;
         height: 100px;
     }
-    .explore-form{
+
+    .explore-form {
         flex-direction: column;
         gap: 15px;
     }
+
     .explore-form input,
-select{
-    width: 300px;
-    height: 42px;
+    select {
+        width: 300px;
+        height: 42px;
+    }
 }
+
+/*Tours section*/
+@media screen and (max-width:600px) {
+    .tours-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tours-content h2 {
+        color: #131318;
+        font-size: 1.75rem;
+        padding-bottom: 10px;
+    }
+
+    .tours-content p,
+    li {
+        color: rgba(19, 19, 24, 0.70);
+        font-size: .85rem;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+}
+/*Destination section*/
+@media screen and (max-width:600px){
+    .destination-grid img{
+        height: 176px;
+        object-fit: cover;
+    }
+    .row-1 .img-container-1 {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       /*justify-content: center;*/
+    }
+    .row-1 .img-container-1 img{
+        width: 100%;
+    }
+    .row-1 .img-container-1 .img-1,.img-2{
+        width: 375px;
+    }
+    .img-container-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-container-2 .img-3,.img-4,.img-5{
+        width: 375px;
+    }
+    .img-container-2 img{
+        width: 100%;
+    }
+    .img-container-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*justify-content: center;*/
+    }
+    .img-container-3 img{
+        width: 100%;
+    }
+    .img-container-3 .img-6,.img-7{
+        width: 375px;
+    }
+    .img-container-2 .sri {
+        left: 40%;
+        top: 40%;
+    }
+    .img-container-2 .kashmir {
+        left: 40%;
+        top: 45%;
+    }
+    .img-container-3 .bangla {
+        left: 36%;
+        top: 43%;
+    }
+    .destination-content .dest-title{
+        width: auto;
+    }
 }

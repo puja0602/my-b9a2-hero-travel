@@ -7,6 +7,20 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/*Shared Styles*/
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
 .nav-container {
     max-width: 1170px;
     margin: 0 auto;
@@ -70,6 +84,7 @@
 .explore-container {
     max-width: 1170px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .explore-img {
@@ -145,4 +160,198 @@ select {
 
 .explore-form .fa-magnifying-glass {
     margin-right: 0;
+}
+
+/*tours styles*/
+.tours-container {
+    max-width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    /*align-items: center;*/
+    justify-content: center;
+    gap: 35px;
+}
+
+.tours-content {
+    width: 50%;
+}
+
+.tours-img {
+    width: 50%;
+}
+
+.tours-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.tours-content h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.tours-content p,
+li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+/*estination styles*/
+.destination-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.destination-content {
+    text-align: center;
+}
+
+.destination-content h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.destination-content .dest-title {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.row-1 .img-container-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px
+}
+
+.row-1 .img-container-1 img {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.img-container-1 .img-1 {
+    position: relative;
+}
+
+.img-container-1 .mal {
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.img-container-1 .img-2 {
+    position: relative;
+}
+
+.img-container-1 .indo {
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.img-container-2 {
+    display: grid;
+    grid-template-columns: 383px 483px 283px;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.img-container-2 img {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.img-container-2 .img-3 {
+    position: relative;
+}
+
+.img-container-2 .sri {
+    position: absolute;
+    left: 36%;
+    top: 40%;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.img-container-2 .img-4 {
+    position: relative;
+}
+
+.img-container-2 .north {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.img-container-2 .img-5 {
+    position: relative;
+}
+
+.img-container-2 .kashmir {
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.img-container-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.img-container-3 img {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.img-container-3 .img-6 {
+    position: relative;
+}
+
+.img-container-3 .bangla {
+    position: absolute;
+    left: 33%;
+    top: 43%;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.img-container-3 .img-7 {
+    position: relative;
+}
+
+.img-container-3 .bandar {
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
 }
