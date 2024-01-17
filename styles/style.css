@@ -41,6 +41,21 @@
     text-align: center;
 }
 
+/*Dropdown Menu*/
+.checkbtn {
+    font-size: 30px;
+    color: #FF5400;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
 .nav-container {
     max-width: 1170px;
     margin: 0 auto;
@@ -843,6 +858,7 @@ li {
     font-weight: 300;
 }
 
+/*Own styles*/
 .own-container {
     max-width: 1170px;
     margin: 0 auto;
@@ -856,7 +872,17 @@ li {
 
 .own-content {
     text-align: center;
+    padding: 20px;
 }
+
+.own-content:hover {
+    border: 2px solid blue;
+}
+
+.ownc-circle img {
+    width: 60px
+}
+
 
 .own-img img {
     width: 100%;
@@ -872,3 +898,4 @@ li {
     font-size: 1rem;
     font-weight: 400;
     width: 400px
+}

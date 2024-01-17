@@ -264,3 +264,14 @@
         order: 2;
     }
 }
+
+/*Responsive Dropdown*/
+@media screen and (max-width:600px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .nav-list ul {
+        display: none;
+    }
+}
